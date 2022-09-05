@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'JpaStarti'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_796A35A63C944A35B0BF4B7C6D074F3C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D1E9D838BC0C48B7B4606BD859BE4B10 }}
           package: '*.jar'
