@@ -36,7 +36,7 @@ class JpaStartiApplicationTests {
         studentRepository.save(std2);
 
         List<Student> lst = studentRepository.findAll();
-        assertEquals(0, lst.size());
+        assertEquals(2, lst.size());
 
         studentRepository.delete(std1);
         lst = studentRepository.findAll();
